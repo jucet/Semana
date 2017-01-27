@@ -48,6 +48,7 @@ public class OpenArticle {
 			prn = prn.replaceAll("<p>", "");
 			prn = prn.replaceAll("<em>", "");
 			prn = prn.replaceAll("</em>", "");
+			prn = prn.replaceAll("<br/>", "\n");
 			prn = prn.replaceAll("<", "");
 			prn = prn.replaceAll(">", "");
 			prn = prn.replaceAll("  ", "");
@@ -55,7 +56,8 @@ public class OpenArticle {
 			// insert returns
 			// split prn in 4 and concatenate the returns
 			
-			// String temp = substring
+			 // String temp = prn.substring(0, 100);
+			 
 			
 			
 			
